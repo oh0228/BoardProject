@@ -13,7 +13,7 @@
 	BoardService boardService = new BoardServiceImpl();
 	Board board = boardService.selectOne(1);
 %>
-<h1>hello world</h1>
+<h1>hello world!!!</h1>
 board title: <%=board.getTitle() %>
 </body>
 </html>
